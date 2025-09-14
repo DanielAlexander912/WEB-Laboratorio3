@@ -1,0 +1,27 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --pink: #E12AFB;
+    --green: #00ff00;
+}
+
+.shopping-cart {
+    animation: slideIn 3s ease-in-out;
+}
+
+.btn-pay {
+    padding: 6px;
+    border-radius: 12px;
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
